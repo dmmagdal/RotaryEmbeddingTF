@@ -23,6 +23,7 @@ Description: A tensorflow implementation of Lucidrain's [rotary-embedding-torch]
  - EleutherAI [blog](https://blog.eleuther.ai/rotary-embeddings/) on Rotary Embeddings
  - Relative position embedding implementation in [Bert4Keras](https://github.com/bojone/bert4keras/blob/master/bert4keras/layers.py#L904) with Tensorflow and the related [white paper](https://arxiv.org/pdf/1803.02155.pdf)
  - Roformer [implementation](https://github.com/ZhuiyiTechnology/roformer) referenced in Huggingface Roformer model documentation (uses Bert4Keras in the backend)
+ - Relative positional embedding layer [implementation](https://github.com/bojone/bert4keras/blob/master/bert4keras/layers.py#L904) in tensorflow from the bert4keras repo
  - Lucidrain's rotary embedding in pytorch [repo](https://github.com/lucidrains/rotary-embedding-torch)
     - Tensorflow [implementation](https://github.com/AryaAftab/rotary-embedding-tensorflow) of Lucidrain's repo
  - Brief Review — RoFormer: Enhanced Transformer with Rotary Position Embedding ([medium article](https://sh-tsang.medium.com/brief-review-roformer-enhanced-transformer-with-rotary-position-embedding-36f67a619442#:~:text=RoFormer%20can%20significantly%20outperform%20BERT,the%20proposed%20RoFormer%20uses%20rotation.))
